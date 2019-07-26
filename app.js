@@ -13,11 +13,11 @@ function formSubmit(e) {
  //Show Alert Message
   document.querySelector('.alert').style.display = 'block';
 
-  //Form Reset After Submission
-  document.getElementById('form1').reset();
-
-
   //Hide Alert Message After Seven Seconds
   setTimeout(function() {document.querySelector('.alert').style.display = 'none';
   }, 7000);
 
+  //Form Reset After Submission
+  document.getElementById('form1').reset();
+
+}
