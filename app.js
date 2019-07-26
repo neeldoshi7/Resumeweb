@@ -18,6 +18,8 @@
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
 
+  //Reference for form collection(3)
+let formMessage = firebase.database().ref('register');
 
 
  //listen for submit event//
@@ -31,6 +33,9 @@ function formSubmit(e) {
   // Get Values from the DOM
   let fname = document.querySelector('#fname').value;
   let sname = document.querySelector('#sname').value;
+
+    //send message values
+  sendMessage(fname,sname);
   
  //Show Alert Message
   document.querySelector('.alert').style.display = 'block';
@@ -43,3 +48,11 @@ function formSubmit(e) {
   document.getElementById('form1').reset();
 
 }
+
+//Send Message to Firebase(4)
+function sendMessage(fname,sname) {
+  let newFormMessage = formMessage.push();
+  newFormMessage.set({
+    fname : fname,
+    sname : sname,
+  });
