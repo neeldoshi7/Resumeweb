@@ -6,7 +6,7 @@ var Height = prompt("Enter height")
 
 var pName = prompt("Enter petname")
 
-if((fSName[0] === sSName[0]))
+if(((pName[pName.length]==="y" )))
 	{
 		console.log("working")
 	}
