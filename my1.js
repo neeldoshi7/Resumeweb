@@ -12,7 +12,7 @@ if((Height > 170))
 	}
 
 
-if(( fSName[0] === sSName[0] ) && (Age > 20 && Age<30 ) && (Height > 170) && (pName[pName.length]==="y" ))
+if(( fSName[0] === sSName[0] ) && (Age > 20 && Age<30 ) && (Height > 170) && (pName[pName.length - 1]==="y" ))
 {
 	console.log("Attack is tonight");
 }
