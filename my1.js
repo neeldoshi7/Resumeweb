@@ -4,9 +4,9 @@ var sSName = prompt("Enter Second Name ")
 var Age = prompt("Enter Age")
 var Height = prompt("Enter height")
 
-var pName = prompt("Enter height")
+var pName = prompt("Enter petname")
 
-if(( fSName[0] === sSName[0] ) && (20<Age<30) && (Height > 170) )
+if(( fSName[0] === sSName[0] ) && (20<Age<30) && (Height > 170) && (pName[pName.length]===y ))
 {
 	console.log("Attack is tonight");
 }
