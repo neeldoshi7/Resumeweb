@@ -6,7 +6,7 @@ var Height = prompt("Enter height")
 
 var pName = prompt("Enter petname")
 
-if(((pName[pName.length]==="y" )))
+if((20<Age<30))
 	{
 		console.log("working")
 	}
