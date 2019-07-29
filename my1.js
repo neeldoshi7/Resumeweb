@@ -5,7 +5,6 @@ function luckySum(a, b, c){
   if(a==13)
   {
   	console.log("No sum");
-  	break;
   }
   else if(b==13)
   {
