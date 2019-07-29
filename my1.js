@@ -1,4 +1,4 @@
-console.log("connected")
+console.log("connected1")
 
 function monkeyTrouble(aSmile, bSmile) {
     if(aSmile==true && bSmile==true)
