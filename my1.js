@@ -1,8 +1,13 @@
 console.log("connected")
 
-function sleepIn(weekday, vacation) {
-    if(weekday==false || vacation==true)
+function monkeyTrouble(aSmile, bSmile) {
+    if(aSmile==true && bSmile==true)
     {
+    	console.log(true);
+    }
+    else if(aSmile==false && bSmile==false)
+    {
+
     	console.log(true);
     }
     else
