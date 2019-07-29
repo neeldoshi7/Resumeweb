@@ -1,17 +1,8 @@
-console.log("connected1")
+console.log("connected2")
 
-function monkeyTrouble(aSmile, bSmile) {
-    if(aSmile==true && bSmile==true)
+function stringTimes(str, n) {
+    for(var i=0;i<n;i++)
     {
-    	console.log(true);
-    }
-    else if(aSmile==false && bSmile==false)
-    {
-
-    	console.log(true);
-    }
-    else
-    {
-    	console.log(false)
+    	console.log(str + console.log(str));
     }
 }
