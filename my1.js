@@ -10,5 +10,5 @@ function LengthEmp()
 {
 	var a = employee["name"];
 	console.log(a);
-	console.log(a.length;
+	console.log(a.length);
 }
