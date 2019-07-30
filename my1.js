@@ -14,7 +14,7 @@ function RemoveName()
 	var x = roster.indexOf(Rname);
 	console.log("index of "+ x);
 	console.log("Element is at "+ roster.indexOf(Rname))
-	delete roster[indexOf(Rname)]
+	delete roster[x]
 	console.log(roster)
 }
 
