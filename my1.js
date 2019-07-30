@@ -1,20 +1,13 @@
-console.log("connected")
+console.log("connected10")
 
-var roster = []
-function addNew(){
-	var Name = prompt("Add Name")
-	roster.push(Name);
-	console.log(roster);
+var employee = {
+  name: "John Smith",
+  job: "Programmer",
+  age: 31
 }
 
-function RemoveName()
+function LengthEmp()
 {
-	console.log("Current roster is "+ roster)
-	var Rname = prompt("Enter Name to be removed");
-	var x = roster.indexOf(Rname);
-	console.log("index of "+ x);
-	console.log("Element is at "+ roster.indexOf(Rname))
-	delete roster[x]
-	console.log(roster)
+	var a = employee["name"];
+	console.log(a);
 }
-
