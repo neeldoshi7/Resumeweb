@@ -1,4 +1,4 @@
-console.log("connected12")
+console.log("connected14")
 
 var employee = {
   name: "John Smith",
@@ -10,6 +10,5 @@ function LengthEmp()
 {
 	var a = employee["name"];
 	console.log(a);
-	var ln = employee["name"].length();
-	console.log("Length is " + ln);
+	console.log(a.length());
 }
