@@ -4,5 +4,6 @@ var roster = []
 function addNew(){
 	var Name = prompt("Add Name")
 	roster.push(Name);
+	console.log(roster)
 }
-roster
+
