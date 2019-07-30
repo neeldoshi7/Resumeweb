@@ -12,3 +12,8 @@ function LengthEmp()
 	console.log(a);
 	console.log(a.length);
 }
+
+function AlertEmp()
+{
+	alert("Name is "+ employee["name"] + ", Job is " + employee["job"] + "age is " + employee["age"]);
+}
