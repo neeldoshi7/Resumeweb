@@ -1,4 +1,4 @@
-console.log("connected8")
+console.log("connected")
 
 var roster = []
 function addNew(){
@@ -11,6 +11,8 @@ function RemoveName()
 {
 	console.log("Current roster is "+ roster)
 	var Rname = prompt("Enter Name to be removed");
+	var x = roster.indexOf(Rname);
+	console.log("index of "+ x);
 	console.log("Element is at "+ roster.indexOf(Rname))
 	delete roster[indexOf(Rname)]
 	console.log(roster)
